@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: oldlace;
+}
+.nav-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 60%;
+    margin: 200px auto;
+    padding: 25px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    margin-right: 0.7rem;
+}
+li{
+    margin-right: 15px;
+    font-size: 1.2rem;
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+li a:hover{
+    color: orangered;
+    transition: all 0.5s;
+}
+
+.logo{
+    font-size: 1.4rem;
+}
+.logo-div a{
+    text-decoration: none;
+    color: white;
+}
+.logo-div p:hover{
+    color: orangered;
+    transition: all 0.5s;
+}
+.logo-div span:hover{
+    color: white;
+    transition: all 0.7s;
+}
+.logo span{
+    color: orangered;
+    font-weight: bold;
+}
